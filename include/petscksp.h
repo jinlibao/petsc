@@ -57,6 +57,7 @@ typedef const char* KSPType;
 #define   KSPFBCGSR     "fbcgsr"
 #define   KSPBCGSL      "bcgsl"
 #define   KSPPIPEBCGS   "pipebcgs"
+#define   KSPMLBCGS     "mlbcgs"
 #define KSPCGS        "cgs"
 #define KSPTFQMR      "tfqmr"
 #define KSPCR         "cr"
@@ -565,7 +566,7 @@ M*/
 M*/
 
 /*MC
-     KSP_DIVERGED_PC_FAILED - It was not possible to build or use the requested preconditioner. This is usually due to a 
+     KSP_DIVERGED_PC_FAILED - It was not possible to build or use the requested preconditioner. This is usually due to a
      zero pivot in a factorization. It can also result from a failure in a subpreconditioner inside a nested preconditioner
      such as PCFIELDSPLIT.
 
